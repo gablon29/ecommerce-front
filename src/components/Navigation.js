@@ -33,8 +33,23 @@ function Navigation() {
         <Navbar bg="light" expand="lg">
             <Container>
                 <LinkContainer to="/">
-                    <Navbar.Brand>Ecomern</Navbar.Brand>
+                    <Navbar.Brand>Ecommerce - 5I</Navbar.Brand>
                 </LinkContainer>
+
+                <Nav.Link href="#features">Sobre Nosotros</Nav.Link>
+                <Nav.Link href="#pricing">Sucursales</Nav.Link>
+
+                <NavDropdown title="Categorías" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">Electrodomésticos</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Computadoras y accesorios
+                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Moviliario de oficina</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">
+                        Otros productos
+                    </NavDropdown.Item>
+                </NavDropdown>
+
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
