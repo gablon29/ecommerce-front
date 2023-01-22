@@ -34,7 +34,7 @@ function CheckoutForm() {
             },
         });
         setPaying(false);
-        /*Modificación para que se realice la orden de pago en stripe.com con tarjetas falsas*/
+
         if (paymentIntent) {
             createOrder({ userId: user._id, cart: user.cart, address, country }).then((res) => {
                 if (!isLoading && !isError) {
