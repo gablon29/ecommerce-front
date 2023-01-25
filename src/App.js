@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs"
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import { useDispatch, useSelector } from "react-redux";
@@ -43,6 +44,7 @@ function App() {
                 <Navigation />
                 <Routes>
                     <Route index element={<Home />} />
+                    <Route path="/aboutUs" element={<AboutUs/> } />
                     {!user && (
                         <>
                             <Route path="/login" element={<Login />} />
