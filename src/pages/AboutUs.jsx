@@ -4,8 +4,9 @@ import { Carousel, Col, Container, Row } from 'react-bootstrap'
 import newEcom from '../image/newEcom.png'
 import newEcom2 from '../image/newEcom2.png'
 import newEcom33 from '../image/newEcom33.png'
+import Oficinas from '../image/Oficinas.jpg'
+import foto4 from '../image/foto4.jpg'
 import ComponentMap from '../components/ComponentMap'
-import Map from '../components/Map'
 
 const AboutUs = () => {
   return (
@@ -13,30 +14,30 @@ const AboutUs = () => {
       <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100 p-1"
-          src={newEcom}
+          className="d-block w-100 p-1 h-100"
+          src={foto4}
           alt="First slide"
         />
         <Carousel.Caption className='encuadreParrafo'>
           <h3 className='titleimg'>Nuestras instalaciones</h3>
-          <p className='textImg'>Caracterizados por ser una de las empresas con instalaciones mas limpias y proligas del pais.</p>
+          <p className='textImg'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 p-1"
-          src={newEcom2}
+          className="d-block w-100 p-1 h-100"
+          src={Oficinas}
           alt="Second slide"
         />
 
         <Carousel.Caption className='encuadreParrafo'>
           <h3 className='titleimg'>Nuestros recursos</h3>
-          <p className='textImg'>En mano de los mejores profesionales del desarrollo. Para garantizar el maximo desempeño web.</p>
+          <p className='textImg'>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 p-1"
+          className="d-block w-100 p-1 h-10"
           src={newEcom33}
           alt="Third slide"
         />
@@ -48,7 +49,8 @@ const AboutUs = () => {
           </p> */}
         </Carousel.Caption>
       </Carousel.Item>
-      </Carousel>
+        </Carousel>
+      {/* start section map */}
       <Container>
         <Row className='textMap'>
           <Col>
