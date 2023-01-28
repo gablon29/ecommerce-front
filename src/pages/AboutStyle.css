@@ -19,8 +19,12 @@ h2 {
     font-weight: 700;
     width: 100%;
 }
+.carrusel.caption{
+    align-content: left;
+}
 .encuadreParrafo {
     background-color:rgba(32, 32, 32, 0.737);
+    
 }
 .titleimgEnd {
         background-color: rgba(32, 32, 32, 0.737);

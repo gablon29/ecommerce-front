@@ -5,6 +5,7 @@ import newEcom from '../image/newEcom.png'
 import newEcom2 from '../image/newEcom2.png'
 import newEcom33 from '../image/newEcom33.png'
 import ComponentMap from '../components/ComponentMap'
+import Map from '../components/Map'
 
 const AboutUs = () => {
   return (
